@@ -3,18 +3,16 @@
     "content": [
       {
         "files": [
-          "**/*.md",
-          "**/*.yml"
+          "**/*.md"
         ],
-        "src": "./a",
+        "src": "a",
         "dest": "."
       },
       {
         "files": [
-          "**/*.md",
-          "**/*.yml"
+          "**/*.md"
         ],
-        "src": "./b",
+        "src": "b",
         "dest": "."
       }
     ],
@@ -30,11 +28,25 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/qidonMergeTest/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
-      "feedback_system": "None"
+                                         "extendBreadcrumb":  true,
+                                         "feedback_system":  "None",
+                                         "ROBOTS":  "NOINDEX,NOFOLLOW",
+                                         "is_archived":  true,
+                                         "uhfHeaderId":  "MSDocsHeader-Archive",
+                                         "author":  "Archiveddocs",
+                                         "ms.author":  "Archiveddocs",
+                                         "ms.topic":  "archived"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+        "breadcrumb_path": {
+            "a/**/*.md": "/previous-versions/visualstudio/breadcrumb/toc.json",
+            "b/**/*.md": "/qidonMergeTest/breadcrumb/toc.json",
+        },
+        "ms.prod": {
+            "a/**/*.md": "a.10",
+            "b/**/*.md": "b.10",
+        }
+    },
     "template": [],
     "dest": "qidonMergeTest",
     "markdownEngineName": "markdig"

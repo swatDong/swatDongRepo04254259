@@ -8,6 +8,14 @@
         ],
         "src": "./a",
         "dest": "."
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "./b",
+        "dest": "."
       }
     ],
     "resource": [
@@ -15,12 +23,6 @@
         "files": [
           "**/*.png",
           "**/*.jpg"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**"
         ]
       }
     ],

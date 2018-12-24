@@ -40,11 +40,11 @@
     "fileMetadata": {
         "breadcrumb_path": {
             "a/**/*.md": "/previous-versions/visualstudio/breadcrumb/toc.json",
-            "b/**/*.md": "/qidonMergeTest/breadcrumb/toc.json",
+            "b/**/*.md": "/qidonMergeTest/breadcrumb/toc.json"
         },
         "ms.prod": {
             "a/**/*.md": "a.10",
-            "b/**/*.md": "b.10",
+            "b/**/*.md": "b.10"
         }
     },
     "template": [],

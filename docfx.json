@@ -5,14 +5,7 @@
         "files": [
           "**/*.md"
         ],
-        "src": "a",
-        "dest": "."
-      },
-      {
-        "files": [
-          "**/*.md"
-        ],
-        "src": "b",
+        "src": ".",
         "dest": "."
       }
     ],
@@ -31,21 +24,10 @@
                                          "extendBreadcrumb":  true,
                                          "feedback_system":  "None",
                                          "ROBOTS":  "NOINDEX,NOFOLLOW",
-                                         "is_archived":  true,
                                          "uhfHeaderId":  "MSDocsHeader-Archive",
                                          "author":  "Archiveddocs",
                                          "ms.author":  "Archiveddocs",
                                          "ms.topic":  "archived"
-    },
-    "fileMetadata": {
-        "breadcrumb_path": {
-            "a/**/*.md": "/previous-versions/visualstudio/breadcrumb/toc.json",
-            "b/**/*.md": "/qidonMergeTest/breadcrumb/toc.json"
-        },
-        "ms.prod": {
-            "a/**/*.md": "a.10",
-            "b/**/*.md": "b.10"
-        }
     },
     "template": [],
     "dest": "qidonMergeTest",
